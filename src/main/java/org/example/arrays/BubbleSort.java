@@ -20,10 +20,9 @@ public class BubbleSort {
 
                     swapped = true;
                 }
-
-                if (!swapped) {
-                    return array;
-                }
+            }
+            if (!swapped) {
+                return array;
             }
         }
         return array;
